@@ -1,0 +1,37 @@
+// #[warn(unused_must_use)]
+// use std::io::Write;
+// use std::fs::{OpenOptions, self};
+
+
+// fn main() {
+    
+//     let mut file = fs::OpenOptions::new()
+//       .write(true)
+//       .append(true)
+//       .open("file.txt")
+//       .unwrap();
+// file.sync_all();    
+// file.write_all(b"to append");
+// or
+// write!(file, "to append");
+// }
+
+// struct Rec{
+//   lenght: u32,
+//   width: u32
+// }
+
+// impl Rec{
+//   fn area(&self) -> u32{
+//     self.lenght * self.width
+//   }
+// }
+
+// fn main(){
+// let Rec1 = Rec{
+//   lenght:30,
+//   width: 40
+// };
+// }
+
+// println!("this is it {:?}", Rec1.area);
